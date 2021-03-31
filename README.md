@@ -20,9 +20,9 @@ TO RUN :
          "amount" : "100",
          "currency" : "USD",
          "creditCard":{
-               "number" : 1234567890123456
-               "expirationMonth": "2"
-               "expirationYear":  "2021"
+               "number" : 1234567890123456,
+               "expirationMonth": "2",
+               "expirationYear":  "2021",
                "cvv": "007"
          }
   }
