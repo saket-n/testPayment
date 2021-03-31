@@ -1,6 +1,7 @@
 # payment-gateway
  
 This is a test to integrate Braintree PayPal API with Node JS.
+Currently Test possible with POSTMAN.
 Still Work in progress on the UI side.
 But Backend works fine.
 
