@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> ChaayShaay - Please Try! </title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+
+  <div class="row"> 
+      <div class="col-md-3"> 
+      </div> 
+      <div class="col-md-6"> 
+            <div class = "main">
+                <div class="row padder"> 
+                    <div class="col-md-3 cover"> 
+                        <img src="/Logo_Main.png" class="img img-responsive" alt="Chaay Shaay" > </img> 
+                    </div> 
+                    <div class="col-md-9"> 
+                        <h2> Welcome to Chaay Shaay </h2> 
+                        <hr> 
+                        <b> Desclaimer: </b> We only sell our specialty item: Desi Tea, so no menus. 
+                        <hr>
+                        <form action="/buy">                        
+                        <label for="price">Enter Price:</label> 
+                        <input type="price" id="price" name="price" required style="max-width: 8%;">
+                        <label for="currency">Currency:</label>
+                            <select id="currency" name="currency" required>
+                            <option value="BRL">BRL</option>
+                            <option value="CAD">CAD</option>
+                            <option value="CNY">CNY</option>
+                            <option value="CZK">CZK</option>
+                            <option value="DKK">DKK</option>
+                            <option value="EUR">EUR</option>
+                            <option value="HKD">HKD</option>
+                            <option value="HUF">HUF</option>
+                            <option value="INR">INR</option>
+                            <option value="ILS">ILS</option>
+                            <option value="JPY">JPY</option>
+                            <option value="MYR">MYR</option>
+                            <option value="MXN">MXN</option>
+                            <option value="TWD">TWD</option>
+                            <option value="NZD">NZD</option>
+                            <option value="NOK">NOK</option>
+                            <option value="PHP">PHP</option>
+                            <option value="PLN">PLN</option>
+                            <option value="GBP">GBP</option>
+                            <option value="RUB">RUB</option>
+                            <option value="SGD">SGD</option>
+                            <option value="SEK">SEK</option>
+                            <option value="CHF">CHF</option>
+                            <option value="THB">THB</option>
+                            <option value="USD" selected>USD</option>
+                            </select>
+                        <hr>
+                        <h2>Payment Information</h2>
+                        <label for="name">Credit card holder name</label> 
+                        <input type="name" id="name" name="name" required>
+                        <label for="ccn">Credit Card Number:</label>
+                        <input id="ccn" name="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required><br><br>
+                        <label for="expiration">Credit card expiration</label> 
+                        <input type="date" id="expiration" name="expiration" required>
+                        <label for="cvv">Credit card CVV</label> 
+                        <input type="tel" id="cvv" name="cvv" maxlength="3" inputmode="numeric" pattern="[0-9\s]{3,3}" placeholder="xxx" required style="max-width: 8%;"><br><br>
+                        <hr>
+                        <!-- <a href="/buy">  
+                        ○ Credit card holder name
+                        ○ Credit card number
+                        ○ Credit card expiration
+                        ○ Credit card CCV-->
+                        <input  type="submit" class="btn btn-warning btn-lg" value="Buy Now"> </input> 
+                    </form>
+                        <!-- </a>  -->
+                    </div> 
+                </div> 
+             </div>
+      </div> 
+      <div class="col-md-2"> 
+      </div> 
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dushyantbangal/payment-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dushyantbangal/payment-gateway/issues"
+  },
+  "homepage": "https://github.com/dushyantbangal/payment-gateway#readme",
+  "dependencies": {
+    "braintree": "^3.2.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
